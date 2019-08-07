@@ -1,0 +1,10 @@
+CREATE TABLE `account` (
+	`no` CHAR(8) NOT NULL DEFAULT '',
+	`balance` BIGINT(20) NULL DEFAULT NULL,
+	`username` VARCHAR(50) NULL DEFAULT NULL,
+	PRIMARY KEY (`no`),
+	INDEX `name` (`username`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+;
