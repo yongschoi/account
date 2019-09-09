@@ -16,7 +16,7 @@ public class AccountService {
     AccountMapper mapper;
     
     public Account getAccount(String username) throws Exception {
-    	logger.debug("yongs-account|AccountService|getAccount()");
+    	logger.debug("yongs-account|AccountService|getAccount()");   	
         return mapper.getAccount(username);
     }
 }
